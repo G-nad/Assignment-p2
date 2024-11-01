@@ -3,7 +3,7 @@
 ---
 **Làm tròn**
 ![image](https://github.com/user-attachments/assets/3c909518-acda-4992-a7f3-7afcaf8cb3e7)
-Làm theo đề bảo, sử dùng hàm round để lầm tròn.
+Làm theo đề bảo, sử dùng hàm round để làm tròn.
 
 ---
 **In hình chữ nhật**
