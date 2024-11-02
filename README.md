@@ -26,15 +26,15 @@ Dùng phép lấy dư để tách ra từng chữ số.
 ---
 **Làm tròn hỗn số**
 ![image](https://github.com/user-attachments/assets/a322f309-c271-4560-82e3-8558f974af8a)
-Xử lý phần số nguyên: Giống với bài làm tròn, nhưng vì chỉ được sử dụng thư viện <iosstream> nên ta phải lập trình làm tròn mà không sử dụng hàm round.
+Xử lý phần số nguyên: Giống với bài làm tròn, nhưng vì chỉ được sử dụng thư viện <iostream> nên ta phải lập trình làm tròn mà không sử dụng hàm round.
 >
 Xử lý phần phân số:
 >
   Gọi X là phần nguyên, Y là phần thập phân sau khi tính toán.
-  Ta cần tìm phân số có dạng ```i * (1/n)``` với i: 1 -> n + 1, ở đây ta đặt ```1/n``` là sum
-  Nhân Y và sum với 1e18 (Giảm thiểu sai số)
-  (Ở đây, ta có thể tìm sum bằng cách mô phỏng phép chia bằng "tay" như cách ta thực hiện phép chia khi học tiểu học)
-  Tiếp theo, ta tìm 2 tử số A, B của 2 phân số cũng có dạng ```i * (1/n)``` sao cho A <= Y < B, A lớn nhất, B nhỏ nhất
+  Ta cần tìm phân số có dạng ```i * (1/n)``` với i: 1 -> n + 1, ở đây ta đặt ```1/n``` là sum.
+  Nhân Y và sum với 1e18 (Giảm thiểu sai số).
+  (Ở đây, ta có thể tìm sum bằng cách mô phỏng phép chia bằng "tay" như cách ta thực hiện phép chia khi học tiểu học).
+  Tiếp theo, ta tìm 2 tử số A, B của 2 phân số cũng có dạng ```i * (1/n)``` sao cho A <= Y < B, A lớn nhất, B nhỏ nhất.
   So sánh khoảng cách từ Y đến A, từ B đến Y, khoảng cách nào nhỏ hơn thì tử số đó chính là tử số của phân số ```i * (1/n)``` mà ta cần tìm.
 
 
