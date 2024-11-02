@@ -27,14 +27,15 @@ int main()
     }
 
     tmp3 *= 1e18;
-//    std::cout << tmp3 << "\n";
+    /* Tim phan so bang cach thuc hien "phep chia tay"
     long long tu = 1, mau = n, sum = 0;
     for (int i = 1; i <= 18; i++){
         tu *= 10;
         sum = sum * 10 + (tu / mau);
         tu %= mau;
     }
-//    cout << sum;
+    */
+    long long sum = (double)1/n * 1e18;
 
     int ans = 0;
     long long l = 0, r = 0; // r: lam tron len, l: lam tron xuong
